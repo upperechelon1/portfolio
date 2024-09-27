@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Mesh Square catering the dynamic needs of modern businesses",
+    des: "MeshSq, a 🚀 comprehensive project tailored for an esteemed IT company specializing in a wide array of services including development, designing, and much more. MeshSq's expertise lies in crafting innovative solutions that cater to the dynamic needs of modern businesses..",
+    img: "/mesh-square.webp",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://www.meshsq.com/",
   },
   {
     id: 2,
@@ -140,33 +140,33 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Tech Matrix",
+    img: "/blenderr.png",
+    nameImg: "Tech Matrix",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    img: "/asus.png",
+    nameImg: "Tech Matrix",
   },
   {
     id: 3,
     name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    img: "/fortnite.png",
+    nameImg: "Tech Matrixg",
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    img: "/micropack.png",
+    nameImg: "Tech Matrixsvg",
   },
   {
     id: 5,
     name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    img: "/spotify.png",
+    nameImg: "Tech Matrixsvg",
   },
 ];
 
