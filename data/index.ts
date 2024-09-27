@@ -80,27 +80,30 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title:
+      "Rexaco AI - Help businesses comply with regulations and standards related to supply chain management.",
+    des: "This case study highlights my collaboration with Rexaco, a team of retired academics and industry experts who developed a computer program for supply chain compliance. The goal was to convert their Figma design into a React.js web application with Tailwind CSS, providing a seamless user experience for their clients. Rexaco's program is designed to help businesses comply with regulations and standards related to supply chain management.",
+    img: "/rexaco.webp",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://www.rexaco.ai/",
   },
+
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title:
+      "Smili Media - An AI-driven tool for easy cross-platform video creation",
+    des: "This case study showcases my collaboration with Smili Media, an innovative company that introduced an AI-driven tool for easy cross-platform video creation from YouTube content. The goal was to convert Smili Media's Figma design into a Next.js website using the Tailwind CSS framework, providing a seamless user experience for their clients. ",
+    img: "/smilimedia.webp",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://www.smilimedia.com/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Legaly AI (Your AI legal assistant)",
+    des: "Legaly AI is a web app to generate legal contracts with the help of AI. This also summarizes any Legal document into simple sentences which is easier for anyone to understand. This is mainly based on Spanish Law.",
+    img: "/legaly.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://www.legaly.ai/",
   },
 ];
 
