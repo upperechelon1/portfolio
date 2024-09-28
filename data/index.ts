@@ -75,34 +75,33 @@ export const projects = [
     title: "Mesh Square catering the dynamic needs of modern businesses",
     des: "MeshSq, a 🚀 comprehensive project tailored for an esteemed IT company specializing in a wide array of services including development, designing, and much more. MeshSq's expertise lies in crafting innovative solutions that cater to the dynamic needs of modern businesses..",
     img: "/mesh-square.webp",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg"],
     link: "https://www.meshsq.com/",
-  },
-  {
-    id: 2,
-    title:
-      "Rexaco AI - Help businesses comply with regulations and standards related to supply chain management.",
-    des: "This case study highlights my collaboration with Rexaco, a team of retired academics and industry experts who developed a computer program for supply chain compliance. The goal was to convert their Figma design into a React.js web application with Tailwind CSS, providing a seamless user experience for their clients. Rexaco's program is designed to help businesses comply with regulations and standards related to supply chain management.",
-    img: "/rexaco.webp",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://www.rexaco.ai/",
   },
 
   {
-    id: 3,
+    id: 2,
     title:
       "Smili Media - An AI-driven tool for easy cross-platform video creation",
     des: "This case study showcases my collaboration with Smili Media, an innovative company that introduced an AI-driven tool for easy cross-platform video creation from YouTube content. The goal was to convert Smili Media's Figma design into a Next.js website using the Tailwind CSS framework, providing a seamless user experience for their clients. ",
     img: "/smilimedia.webp",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://www.smilimedia.com/",
+  },
+  {
+    id: 3,
+    title: "NeoSponsor - Where Influencers and Brands Meet for Magic!.",
+    des: "NeoSponsor is an innovative platform designed to facilitate sponsorship partnerships between influencers—such as content creators, amateur athletes, and artists—and sponsors, including companies, brands, and individuals. We believe in the power of collaboration and the mutual benefits it brings to both parties.",
+    img: "/neosponsor.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg"],
+    link: "https://spone-frontend.vercel.app/",
   },
   {
     id: 4,
     title: "Legaly AI (Your AI legal assistant)",
     des: "Legaly AI is a web app to generate legal contracts with the help of AI. This also summarizes any Legal document into simple sentences which is easier for anyone to understand. This is mainly based on Spanish Law.",
     img: "/legaly.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://www.legaly.ai/",
   },
 ];
@@ -143,33 +142,34 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "Tech Matrix",
-    img: "/blenderr.png",
-    nameImg: "Tech Matrix",
+    name: "Colab",
+    img: "/colab.png",
+    nameImg: "Colab",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/asus.png",
-    nameImg: "Tech Matrix",
+    name: "Dime",
+    img: "/dime.png",
+    nameImg: "Dime",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/fortnite.png",
-    nameImg: "Tech Matrixg",
+    name: "Leafe",
+    img: "/leafe.png",
+    nameImg: "Leafe",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/micropack.png",
-    nameImg: "Tech Matrixsvg",
+    name: "Penta",
+    img: "/penta.png",
+    nameImg: "Penta",
   },
+
   {
     id: 5,
-    name: "docker.",
-    img: "/spotify.png",
-    nameImg: "Tech Matrixsvg",
+    name: "Terra.",
+    img: "/terra.png",
+    nameImg: "Terra",
   },
 ];
 
