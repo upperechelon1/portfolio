@@ -7,7 +7,7 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-[#00D1FF]">approach</span>
+        My <span className="text-[#DA70D6]">approach</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
@@ -148,17 +148,17 @@ const AceternityIcon = ({ order }: { order: string }) => {
   return (
     <div>
       {/* this btn is from https://ui.aceternity.com/components/tailwindcss-buttons border magic */}
-      {/* change rounded-lg, text-[#00D1FF] px-5 py-2 */}
+      {/* change rounded-lg, text-[#DA70D6] px-5 py-2 */}
       {/* remove focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 cuz we don't need to focus */}
       {/* remove text-sm font-medium h-12 , add font-bold text-2xl */}
       <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
         <span
           className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
-         bg-[conic-gradient(from_90deg_at_50%_50%,#00D1FF_0%,#D49B66_50%,#00D1FF_100%)]"
+         bg-[conic-gradient(from_90deg_at_50%_50%,#DA70D6_0%,#5D3FD3_50%,#DA70D6_100%)]"
         />
         <span
           className="inline-flex h-full w-full cursor-pointer items-center 
-        justify-center rounded-full bg-slate-950 px-5 py-2 text-[#00D1FF] backdrop-blur-3xl font-bold text-2xl"
+        justify-center rounded-full bg-slate-950 px-5 py-2 text-[#DA70D6] backdrop-blur-3xl font-bold text-2xl"
         >
           {order}
         </span>
