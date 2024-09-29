@@ -7,7 +7,7 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        My <span className="text-[#00D1FF]">approach</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
@@ -96,10 +96,10 @@ const Card = ({
       }}
     >
       {/* change to h-10 w-10 , add opacity-30  */}
-      <Icon className="absolute h-10 w-10 -top-3 -left-3 dark:text-white text-black opacity-30" />
-      <Icon className="absolute h-10 w-10 -bottom-3 -left-3 dark:text-white text-black opacity-30" />
-      <Icon className="absolute h-10 w-10 -top-3 -right-3 dark:text-white text-black opacity-30" />
-      <Icon className="absolute h-10 w-10 -bottom-3 -right-3 dark:text-white text-black opacity-30" />
+      <Icon className="absolute h-10 w-10 -top-3 -left-3 dark:text-[#EAEAEA] text-black opacity-30" />
+      <Icon className="absolute h-10 w-10 -bottom-3 -left-3 dark:text-[#EAEAEA] text-black opacity-30" />
+      <Icon className="absolute h-10 w-10 -top-3 -right-3 dark:text-[#EAEAEA] text-black opacity-30" />
+      <Icon className="absolute h-10 w-10 -bottom-3 -right-3 dark:text-[#EAEAEA] text-black opacity-30" />
 
       <AnimatePresence>
         {hovered && (
@@ -124,7 +124,7 @@ const Card = ({
         </div>
         <h2
           // change text-3xl, add text-center
-          className="dark:text-white text-center text-3xl opacity-0 group-hover/canvas-card:opacity-100
+          className="dark:text-[#EAEAEA] text-center text-3xl opacity-0 group-hover/canvas-card:opacity-100
          relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white 
          group-hover/canvas-card:-translate-y-2 transition duration-200"
         >
@@ -148,7 +148,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
   return (
     <div>
       {/* this btn is from https://ui.aceternity.com/components/tailwindcss-buttons border magic */}
-      {/* change rounded-lg, text-purple px-5 py-2 */}
+      {/* change rounded-lg, text-[#00D1FF] px-5 py-2 */}
       {/* remove focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 cuz we don't need to focus */}
       {/* remove text-sm font-medium h-12 , add font-bold text-2xl */}
       <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
@@ -158,7 +158,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
         />
         <span
           className="inline-flex h-full w-full cursor-pointer items-center 
-        justify-center rounded-full bg-slate-950 px-5 py-2 text-purple backdrop-blur-3xl font-bold text-2xl"
+        justify-center rounded-full bg-slate-950 px-5 py-2 text-[#00D1FF] backdrop-blur-3xl font-bold text-2xl"
         >
           {order}
         </span>
@@ -171,7 +171,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
     //   viewBox="0 0 66 65"
     //   fill="none"
     //   xmlns="http://www.w3.org/2000/svg"
-    //   className="h-10 w-10 text-black dark:text-white group-hover/canvas-card:text-white "
+    //   className="h-10 w-10 text-black dark:text-[#EAEAEA] group-hover/canvas-card:text-white "
     // >
     //   <path
     //     d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"

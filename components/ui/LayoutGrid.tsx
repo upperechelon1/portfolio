@@ -38,7 +38,7 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
           //   add className={cn(card.className, "")}
           className={cn(
             card.className
-            // "bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            // "bg-white dark:bg-slate-900 text-black dark:text-[#EAEAEA] border-neutral-200 dark:border-slate-800"
           )}
         >
           <div
