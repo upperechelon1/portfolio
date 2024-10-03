@@ -1,6 +1,7 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
+
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
@@ -8,19 +9,19 @@ const RecentProjects = () => {
   return (
     <div className="py-20">
       <h1 className="heading">
-        Explore some of my
-        <span className="text-purple"> digital creations</span>
+        A small selection of{" "}
+        <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
-          <a
-            href={item.link} // Add the project link
-            key={item.id}
-            target="_blank" // Optional: to open the link in a new tab
-            rel="noopener noreferrer" // Prevent security issues
+          <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+            key={item.id}
           >
-            <PinContainer href="https://twitter.com/mannupaaji">
+            <PinContainer
+              title="/ui.aceternity.com"
+              href="https://twitter.com/mannupaaji"
+            >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
@@ -59,7 +60,7 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon" className="p-2" />
+                      <img src={icon} alt="icon5" className="p-2" />
                     </div>
                   ))}
                 </div>
@@ -72,7 +73,7 @@ const RecentProjects = () => {
                 </div>
               </div>
             </PinContainer>
-          </a>
+          </div>
         ))}
       </div>
     </div>
