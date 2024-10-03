@@ -73,8 +73,8 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Comprehensive AI solutions for digital and tech businesses",
-    des: "MeshSq, a 🚀 comprehensive project tailored for an esteemed IT company specializing in a wide array of services including development, designing, and much more. MeshSq's expertise lies in crafting innovative solutions that cater to the dynamic needs of modern businesses..",
+    title: " MeshSq ",
+    des: "Comprehensive AI solutions for digital and tech businesses",
     img: "/mesh-square.webp",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg"],
     link: "https://www.meshsq.com/",
@@ -82,15 +82,15 @@ export const projects = [
 
   {
     id: 2,
-    title: "Platform transforming long videos into engaging short clips",
-    des: "This case study showcases my collaboration with Smili Media, an innovative company that introduced an AI-driven tool for easy cross-platform video creation from YouTube content. The goal was to convert Smili Media's Figma design into a Next.js website using the Tailwind CSS framework, providing a seamless user experience for their clients. ",
+    title: "Smilimedia",
+    des: "Platform transforming long videos into engaging short clips. ",
     img: "/smilimedia.webp",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://www.smilimedia.com/",
   },
   {
     id: 3,
-    title: "AI tool generating text prompts for creative purpose.",
+    title: "NeoSponser",
     des: "NeoSponsor is an innovative platform designed to facilitate sponsorship partnerships between influencers—such as content creators, amateur athletes, and artists—and sponsors, including companies, brands, and individuals. We believe in the power of collaboration and the mutual benefits it brings to both parties.",
     img: "/neosponsor.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg"],
@@ -98,9 +98,8 @@ export const projects = [
   },
   {
     id: 4,
-    title:
-      "AI-powered legal assistant automating document analysis and management",
-    des: "Legaly AI is a web app to generate legal contracts with the help of AI. This also summarizes any Legal document into simple sentences which is easier for anyone to understand. This is mainly based on Spanish Law.",
+    title: "Legaly AI",
+    des: "AI-powered legal assistant automating document analysis and management",
     img: "/legaly.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://www.legaly.ai/",

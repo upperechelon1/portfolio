@@ -9,7 +9,7 @@ const RecentProjects = () => {
     <div className="py-20">
       <h1 className="heading">
         Explore some of my
-        <span className="text-pruple">digital creations</span>
+        <span className="text-purple"> digital creations</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -65,7 +65,7 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-pruple">
+                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Check Live Site
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
