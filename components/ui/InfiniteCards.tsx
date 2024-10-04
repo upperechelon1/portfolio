@@ -118,7 +118,9 @@ export const InfiniteMovingCards = ({
                 <div className="me-3">
                   <img
                     className="w-12 rounded-full"
-                    src="/profile.svg" alt="profile" />
+                    src={item.img}
+                    alt="profile"
+                  />
                 </div>
                 <span className="flex flex-col gap-1">
                   {/* change text color, font-normal to font-bold, text-xl */}
