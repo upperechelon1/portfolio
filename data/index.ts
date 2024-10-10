@@ -51,7 +51,7 @@ export const gridItems = [
   {
     id: 5,
     title: "Currently building a Social web application",
-    description: "Behind The Scenes",
+    description: "Behind the scenes",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -109,29 +109,29 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Our website transformed from outdated to outstanding, all thanks to Naseem’s hard work and expertise!",
+      "Our website went from outdated to outstanding, all thanks to Naseem’s hard work and expertise!",
     img: "/testi1.jpg",
     name: "Sarah Mitchell",
     title: "Marketing Director",
   },
   {
     quote:
-      "Naseem truly went above and beyond—he’s simply the best of the best.",
-    img: "/testi2.jpg",
-    name: "James Rodriguez",
+      "Naseem truly went above and beyond for us, he has been a pleasure to work with.",
+    img: "/testi4.jpg",
+    name: "Felix Rodriguez",
     title: "CEO",
   },
   {
     quote:
-      "Delivered on time and as planned, providing the best service I've ever experienced with a developer.",
+      "I had a great experience working with Naseem. He really took the time to understand our project goals and made sure to keep us in the loop throughout the development process. He was flexible with changes and always open to feedback, which made everything run smoothly. The site he built for us not only looks good but functions exactly as we wanted.",
     img: "/testi3.jpg",
     name: "Emily Carter",
     title: "Project Manager",
   },
   {
     quote:
-      "He brought immense value to the table and executed everything just as promised.",
-    img: "/testi4.jpg",
+      "We brought Naseem in for a short-term project to revamp our website, and he exceeded our expectations. He was patient with us as we figured out what we wanted and provided helpful suggestions along the way. The new site is faster and more user-friendly, thanks to his work. Naseem was easy to work with, always professional, and delivered what he promised. We’re happy with the outcome and would work with him again.",
+    img: "/testi7.jpg",
     name: "David Thompson",
     title: "Operations Manager",
   },

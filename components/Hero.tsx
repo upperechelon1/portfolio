@@ -61,7 +61,7 @@ const Hero = () => {
             Websites Globally.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Check my work"
               icon={<FaLocationArrow />}
