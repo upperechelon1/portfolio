@@ -14,6 +14,7 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
+    img: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -118,7 +119,7 @@ export const InfiniteMovingCards = ({
                 <div className="me-3">
                   <img
                     className="w-12 rounded-full"
-                    src={item.img}
+                    src={item?.img}
                     alt="profile"
                   />
                 </div>
