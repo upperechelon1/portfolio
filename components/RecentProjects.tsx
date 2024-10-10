@@ -13,16 +13,13 @@ const RecentProjects = () => {
         <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-        {projects.map((item,index) => (
+        {projects.map((item, index) => (
           <a target="_blank" href={item.link} key={index}>
             <div
               className="lg:min-h-[32.5rem] h-[28rem] flex items-center justify-center w-[30rem] "
               key={item.id}
             >
-              <PinContainer
-                title="/ui.aceternity.com"
-                href="https://twitter.com/mannupaaji"
-              >
+              <PinContainer title="Check" href="">
                 <div className="relative flex items-center justify-center w-[30rem]  overflow-hidden h-[33vh] mb-10">
                   <div
                     className="relative w-full h-full overflow-hidden lg:rounded-3xl"

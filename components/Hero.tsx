@@ -52,18 +52,18 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Turning Your Vision into Seamless, Engaging Solutions"
+            words="Transforming Web Projects Into High-Converting Machines"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Naseem, a Full Stack Developer based in the
-            Netherlands.
+            Hi! I&apos;m Naseem, Full Stack Developer Creating Impactful
+            Websites Globally.
           </p>
 
           <a href="#about">
             <MagicButton
-              title="Show my work"
+              title="Check my work"
               icon={<FaLocationArrow />}
               position="right"
             />

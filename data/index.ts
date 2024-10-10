@@ -30,7 +30,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "Staying up-to-date with",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -51,7 +51,7 @@ export const gridItems = [
   {
     id: 5,
     title: "Currently building a Social web application",
-    description: "The Inside Scoop",
+    description: "Behind The Scenes",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -139,7 +139,7 @@ export const testimonials = [
     quote:
       "Always approachable and ready to help, Naseem is a true professional in every sense.",
     img: "/testi5.jpg",
-    name: "Laura Johnson",
+    name: "Laurent Johannsen",
     title: "IT Director",
   },
 ];
