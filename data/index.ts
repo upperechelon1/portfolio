@@ -77,7 +77,7 @@ export const projects = [
     des: "Comprehensive AI solutions for digital and tech businesses",
     img: "/mesh-square.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg"],
-    link: "https://www.meshsq.com/",
+    link: "https://www.meshsq.com",
   },
 
   {
@@ -86,7 +86,7 @@ export const projects = [
     des: "Platform transforming long videos into engaging short clips. ",
     img: "/smilimedia.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://www.smilimedia.com/",
+    link: "https://www.smilimedia.com",
   },
   {
     id: 3,
@@ -94,7 +94,7 @@ export const projects = [
     des: "NeoSponsor is an innovative platform designed to facilitate sponsorship partnerships between influencers—such as content creators, amateur athletes, and artists—and sponsors, including companies, brands, and individuals. We believe in the power of collaboration and the mutual benefits it brings to both parties.",
     img: "/neosponsor.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg"],
-    link: "https://spone-frontend.vercel.app/",
+    link: "https://spone-frontend.vercel.app",
   },
   {
     id: 4,
@@ -102,7 +102,7 @@ export const projects = [
     des: "AI-powered legal assistant automating document analysis and management",
     img: "/legaly.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://www.legaly.ai/",
+    link: "https://www.legaly.ai",
   },
 ];
 
